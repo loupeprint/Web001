@@ -1,0 +1,126 @@
+/* Basic CSS resets -- levelling slight inconsistencies in browsers */
+html, body {
+background: none ;
+background-color: #F5F5F5 ;
+	margin:2px;
+	padding:8px;
+font-family: 'Bai Jamjuree', sans-serif;
+font-size: 16px;
+font-weight: 300;
+letter-spacing: -.2px;
+color: #000; }
+        
+        
+a.body:link  {text-decoration: none; color: black;}
+a.body:visited {text-decoration: none; color: black;}
+a.body:hover {text-decoration: none; color: #ccc;}
+a.body:active {text-decoration: none; color: black;}
+
+
+a.menu:link {text-decoration: none; color: white;}
+a.menu:visited {text-decoration: none; color: white;}
+a.menu:hover {text-decoration: none; color: #ccc;}
+a.menu:active {text-decoration: none; color: white;} 
+
+.cover {
+  object-fit: cover;
+  width: 100%;
+  height: 666px;
+  position: bottom;
+}
+
+.container {
+    width: 98%;
+    height: 666px;
+    display: block;
+    position: bottom;
+    overflow: hidden;
+}
+
+.container img {
+    position: bottom;
+    top: 0px;
+    width: 100%;
+}
+
+
+h1{
+font-family:'Bai Jamjuree', sans-serif;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: -.5px; }
+
+h2{
+font-family: 'Bai Jamjuree', sans-serif;
+font-size: 42px;
+font-weight: 300;
+letter-spacing: -4px;
+ }
+ 
+h3{
+font-family:  sans-serif;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: .2px;
+}
+
+h4{
+font-family: 'Bai Jamjuree', sans-serif;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 1.5px;
+display: inline;
+}
+
+h5{
+font-family:  'Bai Jamjuree', sans-serif;
+font-size: 13.5px;
+font-weight: 300;
+letter-spacing: .8px;
+}
+
+/* "Mobile first" CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
+
+body {
+
+	
+}
+
+
+#container {
+	
+}
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+======================================== */
+
+/* New CSS for tablet sizes.
+You can change the pixel number below */
+@media all and (min-width: 768px) {
+	
+	
+	
+	
+} /* closes 768px+ */
+
+
+
+
+/* New CSS for desktop sizes.
+You can change the pixel number below */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
+
+
